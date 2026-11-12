@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Modelo original sin comprimir (61 MB). Para el repo se usa el de modelos/,
+# generado con comprimir_modelo.py.
+Bosques aleatorios/modelo_rf.joblib
+*.bak
+
+# Los cuadernos llevan las salidas incrustadas y pesan ~2,3 MB cada uno.
+# Quita estas líneas si quieres versionarlos.
+*.ipynb_checkpoints/
